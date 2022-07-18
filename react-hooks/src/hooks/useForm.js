@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export const useForm = ( initialForm = {} ) => {//estoy obeteniendo los datos del formulario
+export const useForm = ( initialForm = {} ) => {
   
     const [ formState, setFormState ] = useState( initialForm );
 

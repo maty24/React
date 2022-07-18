@@ -19,13 +19,11 @@ export const SimpleForm = () => {
         });
     }
 
-
+    
     useEffect( () => {
-        // console.log('formState changed!');
     }, [formState]);//esto es la dependencia  y se va a disparar cada vez que ese efecto se cambia
 
     useEffect( () => {
-        // console.log('email changed!');
     }, [ email ]);
 
     
@@ -55,7 +53,7 @@ export const SimpleForm = () => {
 
 
             {
-                (username === 'mesiLegana' ) && <Message />
+                (username === 'strider2' ) && <Message />
             }
 
         </>
